@@ -5,5 +5,8 @@
   "repository": "git@github.com:zipperpull/zenn.zipperpull.git",
   "author": "HIDAKA Takahiro <zipperpull.23@gmail.com>",
   "license": "private",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "zenn-cli": "^0.1.72"
+  }
 }
