@@ -1,0 +1,18 @@
+sequenceDiagram
+%% @backgroundColor{white}
+    participant N as 通知
+    participant C as COCOA
+    participant A as ENAPI
+    participant S as Server
+
+    C->>S: 陽性者情報(TEK)取得
+    S-->>C: 陽性者情報応答
+    C->>A: 処理開始(陽性者情報,設定情報)
+    A-->>A: 接触履歴(端末内)と照合
+    A->>N: RiskScore が条件を満たしていれば通知表示
+    A-->>C: 濃厚接触情報
+
+
+
+
+
