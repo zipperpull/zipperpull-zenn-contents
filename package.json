@@ -1,0 +1,9 @@
+{
+  "name": "zenn.zipperpull",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zipperpull/zenn.zipperpull.git",
+  "author": "HIDAKA Takahiro <zipperpull.23@gmail.com>",
+  "license": "private",
+  "private": true
+}
