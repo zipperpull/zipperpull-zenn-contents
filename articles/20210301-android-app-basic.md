@@ -111,8 +111,6 @@ Android で開発者モードのメニュー内に「アクティビティを保
 - "バググラウンド" みたいに言われているがプロセスを終了することができるのは Android の仕様であってアプリ側の実装に問題があることも多い
 - サンプルアプリなんかで簡略化されているものに騙されてはいけなくて、組み合わせでの動作確認は重要
 
-たとえば Xamarin.Forms の[ドキュメント](https://docs.microsoft.com/ja-jp/xamarin/xamarin-forms/app-fundamentals/application-class#android-project
-
-)では MainActivity が仮定されていて、Prism の[テンプレート](https://github.com/PrismLibrary/Prism.Templates/blob/4d0e7353d3eef25f03f477c760af17f2f714bebd/Xamarin.Forms/BlankApp/BlankApp.Android/MainActivity.cs#L21) でもそれを踏襲してしまっています。
+たとえば Xamarin.Forms の[ドキュメント](https://docs.microsoft.com/ja-jp/xamarin/xamarin-forms/app-fundamentals/application-class#android-project)では MainActivity が仮定されていて、Prism の[テンプレート](https://github.com/PrismLibrary/Prism.Templates/blob/4d0e7353d3eef25f03f477c760af17f2f714bebd/Xamarin.Forms/BlankApp/BlankApp.Android/MainActivity.cs#L21) でもそれを踏襲してしまっています。
 
 それ以外でも他環境で慣れているひとが Android アプリを片手間で開発する場合なんかにこの問題ではまっているひとは見かけます。つらいですね。
